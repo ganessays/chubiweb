@@ -34,8 +34,8 @@
 <div class="full_design_g_u">
 	<div class="container">
 		<div class="row u_r_r_g">
-				<div class="col-md-12">
-				<div class="u_g_n_d"></div>
+			<div class="col-md-12">
+			<div class="u_g_n_d"></div>
 				<div class="u_g_r">
 					<h1 class="g_u_r_1">5 </h1><h1 class="s_g_u_r">月</h1>
 					<h1 class="h2_u_g">May</h1>
@@ -84,7 +84,7 @@
 
 
 		<!-- Second -->
-		<div class="row u_r_r_g">
+		<div class="row u_r_r_g" style="border-bottom: 5px solid #29abe2;">
 				<div class="col-md-12">
 				<div class="u_g_n_d_2"></div>
 				<div class="u_g_r">
@@ -137,7 +137,7 @@
 		</div>
 		<!-- Second end -->
 		<!-- Third -->
-		<div class="row u_r_r_g">
+		<div class="row u_r_r_g" style="border-bottom: 5px solid #29abe2;">
 				<div class="col-md-12">
 				<div class="u_g_n_d_2"></div>
 				<div class="u_g_r">
@@ -190,6 +190,117 @@
 			<!--  -->
 		</div>
 		<!-- Third end -->
+
+		<!-- Fourth Start -->
+		<div class="row u_r_r_g" style="border-bottom: 5px solid #29abe2;">
+				<div class="col-md-12">
+				<div class="u_g_n_d_2" style="border-top:113px solid #bbd769;"></div>
+				<div class="u_g_r">
+					<h1 class="g_u_r_1">7 </h1><h1 class="s_g_u_r">月</h1>
+					<h1 class="h2_u_g_2">July</h1>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="no_r">
+					<h1 class="no_r_d">28</h1> <h1 class="no_r_m">日</h1>
+					<h1 class="no_r_day">Sun</h1>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<p class="b_g_u_r">
+					イラスト体験授業
+				</p>
+			</div>
+			<!--  -->
+			<div class="col-md-6">
+				<div class="n_d_c_img">
+					<img src="{{asset('public\client\images\pageImg\g_u4.jpg')}}">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="n_d_c_d">
+					<h4 class="h4_n_d_c_d">「切り絵イラスト」</h4>
+					<p>
+						切り絵でイラストを制作してみませんか？単純なようで奥が深い切り絵。いろんな紙を切ったり、ちぎったり、色を塗ったり。気づいたら予想外の作品が出来るかも！？
+						<br> <br>
+
+
+					</p>
+					<p class="right_p_g_u">講師：森 邦保先生（イラストレーター）</p>
+					<p><i class="fa fa-circle"></i> 持ち物等:特にありません。画材用具は学校で用意します。</p>
+					<p>
+						<i class="fa fa-circle"></i>  時間:13:00〜15:00 <br>
+（開始時刻前までに1F窓口にお越しください） <br> <br>
+
+※授業内容は変更になる場合がございます。予めご了承ください。
+					</p>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<a href="{{url('experience-class')}}"><p class="b_l_g_u_r">体験授業のお申し込みはこちら</p></a>
+			</div>
+			<div class="col-md-7">
+				<p class="b_l_g_u_r">TEL：03-3929-1230　受付時間：9:30〜17:00</p>
+			</div>
+			<!--  -->
+		</div>
+		<!-- Fourth end -->
+
+		<!-- Fifth Start -->
+		<div class="row u_r_r_g">
+				<div class="col-md-12">
+				<div class="u_g_n_d_2" style="border-top:113px solid #f5bdd5;"></div>
+				<div class="u_g_r">
+					<h1 class="g_u_r_1" style="font-size: 40px;">8 </h1><h1 class="s_g_u_r">月</h1>
+					<h1 class="h2_u_g_2" style="font-size: 18px; padding-left: 40px;">August</h1>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="no_r">
+					<h1 class="no_r_d">10</h1> <h1 class="no_r_m">日</h1>
+					<h1 class="no_r_day">Sun</h1>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<p class="b_g_u_r">
+					イラスト体験授業
+				</p>
+			</div>
+			<!--  -->
+			<div class="col-md-6">
+				<div class="n_d_c_img">
+					<img src="{{asset('public\client\images\pageImg\g_u5.jpg')}}">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="n_d_c_d">
+					<h4 class="h4_n_d_c_d">「絵本の制作」</h4>
+					<p>
+						絵本作家でもある、当校の校長先生 浅沼先生が絵本の基礎を教えます。絵本ってイラストもあって、ストーリーがあって、どのように制作られていくのか。優しく丁寧にお教えします。
+
+						<br> <br>
+
+
+					</p>
+					<p class="right_p_g_u">講師：浅沼とおる先生（学校長/絵本作家）</p>
+					<p><i class="fa fa-circle"></i> 持ち物等:特にありません。画材用具は学校で用意します。</p>
+					<p>
+						<i class="fa fa-circle"></i>  時間:13:00〜15:00 <br>
+（開始時刻前までに1F窓口にお越しください） <br> <br>
+
+※授業内容は変更になる場合がございます。予めご了承ください。
+					</p>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<a href="{{url('experience-class')}}"><p class="b_l_g_u_r">体験授業のお申し込みはこちら</p></a>
+			</div>
+			<div class="col-md-7">
+				<p class="b_l_g_u_r">TEL：03-3929-1230　受付時間：9:30〜17:00</p>
+			</div>
+			<!--  -->
+		</div>
+		<!-- Fifth end -->
 	</div>
 </div>
 <!--  -->

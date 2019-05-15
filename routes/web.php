@@ -36,6 +36,7 @@ Route::get('information-list/{id}','Client\ClientController@info_details_view');
 Route::get('student-graduate','Client\ClientController@student_graduate');
 Route::get('student-details/view/{id}','Client\ClientController@student_details');
 
+Route::get('applicants_guideline','Client\OnlineFormController@applicants_guidline');
 
 
 Route::any('logout', 'Auth\LoginController@logout')->name('logout');

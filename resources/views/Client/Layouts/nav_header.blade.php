@@ -44,11 +44,11 @@
                                        <!--  <li><a class="<?php if(request()->segment('1') =='department'){ echo 'active' ;} ?>" href="{{url('department')}}">{{__('language.DEPARTMENT_INTRODUCTION')}}</a> </li> -->
                                         <li><a class="<?php if(request()->segment('1') =='career_advancement'){ echo 'active' ;} ?>" href="{{url('career_advancement')}}">{{__('language.CAREER_COURSE')}}</a> </li>
                                         <li class="has-children">
-                                            <a class="<?php if(request()->segment('1') =='admission'){ echo 'active' ;} ?>" href="{{url('admission')}}">{{__('language.ADMISSION_GUIDE')}}</a> 
+                                            <a class="<?php if(request()->segment('1') =='admission' || request()->segment('1') =='applicants_guideline'){ echo 'active' ;} ?>" href="{{url('admission')}}">{{__('language.ADMISSION_GUIDE')}}</a>
 
                                             <ul class="dropdown arrow-top">
                                               <li><a href="#">中央美術学園 　授業料</a></li>
-                                              <li><a href="#">中美_募集要項</a></li>
+                                              <li><a href="{{url('applicants_guideline')}}" @if(request()->segment('1') =='applicants_guideline') style="color:#55acee;" @endif>中美_募集要項</a></li>
 
                                             </ul>
 

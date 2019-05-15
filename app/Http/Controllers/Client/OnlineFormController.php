@@ -57,6 +57,9 @@ class OnlineFormController extends Controller
 
         return redirect()->back()->with('success','Successfully Send | 学校説明会お申し込みフォーム　School Briefing Application Form');
 
-
+    }
+    public function applicants_guidline(){
+        $title = 'Guidelines for Applicants　- Chubi - Central Art School Tokyo';
+        return view('Client.Pages.applicants_guidline',compact('title'));
     }
 }
