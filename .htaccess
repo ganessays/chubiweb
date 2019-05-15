@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+<Files ~ "^.*\.([Ee][Nn][Vv])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
+
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+#    RewriteEngine On
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://www.cast.ac.jp/$1 [R,L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
