@@ -33,7 +33,7 @@
 <!--  -->
 <div class="full_design_g_u">
 	<div class="container">
-		<div class="row u_r_r_g">
+		<div class="row u_r_r_g" style="border-bottom: 5px solid #29abe2;">
 			<div class="col-md-12">
 			<div class="u_g_n_d"></div>
 				<div class="u_g_r">
@@ -258,7 +258,7 @@
 			<div class="col-md-2">
 				<div class="no_r">
 					<h1 class="no_r_d">10</h1> <h1 class="no_r_m">日</h1>
-					<h1 class="no_r_day">Sun</h1>
+					<h1 class="no_r_day">Sat</h1>
 				</div>
 			</div>
 			<div class="col-md-10">
@@ -497,6 +497,33 @@
 			</div>
 		</div>
 	</div>
-	</div>
 
-    @endsection
+	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="margin-bottom: 20px;">
+                <span style="background-color: #92c5ea; width:12px; height:41px; padding:0; margin:0; float: left;"></span><h2 class="access_title" style="padding-left:30px;">公開授業　Open Campus
+                </h2>
+            </div>
+            <div class="col-12">
+                <h5><i class="fa fa-circle"></i> 授業見学</h5>
+                <hr>
+                <p>
+                    授業見学は以下の日程を選び、ご自由に参加ください。予約は必要ありません。当日1F受付にお申し出ください。ご質問な<br>
+                    ども受け付けています。お気軽にご参加ください！
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-7">
+                <p class="b_l_g_u_r" style="text-align: center;">授業見学：6月18日（火）〜21日（金）午後３時〜４時</p>
+                <p class="b_l_g_u_r" style="text-align: center;">授業見学：6月25日（火）〜28日（金）午後３時〜４時</p>
+                <p class="b_l_g_u_r" style="text-align: center;">授業見学：6月25日（火）〜28日（金）午後３時〜４時</p>
+                <p class="b_l_g_u_r" style="text-align: center;">ワークショップ：8月19日（月）・21日（水）相馬先生</p>
+            </div>
+        </div>
+    </div>
+
+
+
+@endsection

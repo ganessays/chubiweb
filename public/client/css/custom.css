@@ -476,6 +476,7 @@ p.j_P {
 }
 .team_all_c img {
     padding: 42px;
+    max-height: 320px;
 }
 .our_team{
     background-color: #f1eee4;
@@ -748,6 +749,9 @@ p.route_p {
     .news_img img{
         padding: 0!important;
         width: 100%!important;
+    }
+    .team_all_c img{
+        max-height:360px;
     }
     .cast_paper_left img {
         width: 100%!important;
